@@ -8,8 +8,6 @@ In the ever-evolving landscape of collaborative software development, **Vaskaktu
 
 **Empowering Remote Execution with Precision**
 
-![gungnir](../img/gungnir.png)
-
 *Gungnir*, named after the legendary Norse spear of Odin, stands as the Python-based agent at the heart of the Vaskaktusz project. Engineered for intelligence and efficiency, *Gungnir* is the conduit through which users remotely execute code on distributed machines. With its versatility and adherence to security best practices, *Gungnir* serves as a reliable companion for developers, system administrators, and IT professionals seeking a dynamic and secure remote code execution solution.
 
 **Secure Authorization and Beyond**
@@ -26,8 +24,6 @@ In the ever-evolving landscape of collaborative software development, **Vaskaktu
 
 **Empowering the Core Functionality**
 
-![skofnung](../img/skofnung.png)
-
 *Skofnung*, the backend component, is a Spring Boot 3 application that relies on the Spring Cloud module for REST communication both with the agent (*Gungnir*) and the UI (*Dainsleif*). It serves as the backbone of Vaskaktusz, managing and coordinating the remote code execution process, ensuring seamless communication between agents and the user interface.
 
 **Comprehensive Agent Health Status Table**
@@ -39,8 +35,6 @@ At the core of *Skofnung*'s functionality is a comprehensive table detailing the
 ## Dainsleif: The Centralized Web Component and User Interface (UI)
 
 **A Command Center for Effortless Management**
-
-![dainsleif](../img/dainsleif.png)
 
 *Dainsleif*, the UI component, is a responsive web app developed with React Native. Named after the mythical sword of Norse legend, *Dainsleif* serves as the centralized web component that transforms Vaskaktusz into a command center for remote code execution. The *Dainsleif* UI is designed with a user-friendly interface, providing users with a comprehensive and intuitive platform to manage, monitor, and execute code on remote machines seamlessly.
 
