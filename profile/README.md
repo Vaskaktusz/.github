@@ -1,3 +1,13 @@
+<style>
+    img {
+        float:left; 
+        margin-right:10px;
+    }
+    p {
+        padding-top:20px;
+    }
+</style>
+
 # Introducing Vaskaktusz: Pioneering Remote Code Execution with Gungnir, Skofnung, and Dainsleif
 
 In the ever-evolving landscape of collaborative software development, **Vaskaktusz** emerges as a groundbreaking project designed to revolutionize remote code execution. At its core, Vaskaktusz combines the power of **Gungnir**, an intelligent Python-based agent, with the intuitive and robust **Skofnung** backend, and the user-friendly **Dainsleif** web component. This trio provides users with a seamless and secure platform for executing code on remote machines.
