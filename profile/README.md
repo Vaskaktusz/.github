@@ -1,13 +1,3 @@
-<style>
-    img {
-        float:left; 
-        margin-right:10px;
-    }
-    p {
-        padding-top:20px;
-    }
-</style>
-
 # Introducing Vaskaktusz: Pioneering Remote Code Execution with Gungnir, Skofnung, and Dainsleif
 
 In the ever-evolving landscape of collaborative software development, **Vaskaktusz** emerges as a groundbreaking project designed to revolutionize remote code execution. At its core, Vaskaktusz combines the power of **Gungnir**, an intelligent Python-based agent, with the intuitive and robust **Skofnung** backend, and the user-friendly **Dainsleif** web component. This trio provides users with a seamless and secure platform for executing code on remote machines.
@@ -18,7 +8,7 @@ In the ever-evolving landscape of collaborative software development, **Vaskaktu
 
 **Empowering Remote Execution with Precision**
 
-<img src="img/gungnir.png" width="128" height="128" />
+<img src="img/gungnir.png" width="128" height="128" style="float: left; margin-right: 10px;" />
 
 *Gungnir*, named after the legendary Norse spear of Odin, stands as the Python-based agent at the heart of the Vaskaktusz project. Engineered for intelligence and efficiency, *Gungnir* is the conduit through which users remotely execute code on distributed machines. With its versatility and adherence to security best practices, *Gungnir* serves as a reliable companion for developers, system administrators, and IT professionals seeking a dynamic and secure remote code execution solution.
 
@@ -36,7 +26,7 @@ In the ever-evolving landscape of collaborative software development, **Vaskaktu
 
 **Empowering the Core Functionality**
 
-<img src="img/skofnung.png" width="128" height="128" />
+<img src="img/skofnung.png" width="128" height="128" style="float: left; margin-right: 10px;" />
 
 *Skofnung*, the backend component, is a Spring Boot 3 application that relies on the Spring Cloud module for REST communication both with the agent (*Gungnir*) and the UI (*Dainsleif*). It serves as the backbone of Vaskaktusz, managing and coordinating the remote code execution process, ensuring seamless communication between agents and the user interface.
 
@@ -50,7 +40,7 @@ At the core of *Skofnung*'s functionality is a comprehensive table detailing the
 
 **A Command Center for Effortless Management**
 
-<img src="img/dainsleif.png" width="128" height="128" />
+<img src="img/dainsleif.png" width="128" height="128" style="float: left; margin-right: 10px;" />
 
 *Dainsleif*, the UI component, is a responsive web app developed with React Native. Named after the mythical sword of Norse legend, *Dainsleif* serves as the centralized web component that transforms Vaskaktusz into a command center for remote code execution. The *Dainsleif* UI is designed with a user-friendly interface, providing users with a comprehensive and intuitive platform to manage, monitor, and execute code on remote machines seamlessly.
 
