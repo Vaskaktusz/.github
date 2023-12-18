@@ -1,6 +1,6 @@
-# Introducing Vaskaktusz: Pioneering Remote Code Execution with Gungnir and Skofnung
+# Introducing Vaskaktusz: Pioneering Remote Code Execution with Gungnir, Skofnung, and Dainsleif
 
-In the ever-evolving landscape of collaborative software development, **Vaskaktusz** emerges as a groundbreaking project designed to revolutionize remote code execution. At its core, Vaskaktusz combines the power of **Gungnir**, an intelligent Python-based agent, with the intuitive and robust **Skofnung** web component, providing users with a seamless and secure platform for executing code on remote machines.
+In the ever-evolving landscape of collaborative software development, **Vaskaktusz** emerges as a groundbreaking project designed to revolutionize remote code execution. At its core, Vaskaktusz combines the power of **Gungnir**, an intelligent Python-based agent, with the intuitive and robust **Skofnung** backend, and the user-friendly **Dainsleif** web component. This trio provides users with a seamless and secure platform for executing code on remote machines.
 
 ---
 
@@ -16,26 +16,34 @@ In the ever-evolving landscape of collaborative software development, **Vaskaktu
 
 **Health Checks and Seamless Integration**
 
-*Gungnir*'s commitment to user-centricity extends to health checks, ensuring that users have real-time visibility into the well-being of connected agents. By regularly reporting status to the *Skofnung* web component, *Gungnir* enables the automatic refreshing of the user interface. This seamless integration facilitates proactive monitoring, allowing users to respond swiftly to any anomalies or issues that may arise in the remote execution environment.
+*Gungnir*'s commitment to user-centricity extends to health checks, ensuring that users have real-time visibility into the well-being of connected agents. By regularly reporting status to the *Skofnung* backend, *Gungnir* enables the automatic refreshing of the user interface. This seamless integration facilitates proactive monitoring, allowing users to respond swiftly to any anomalies or issues that may arise in the remote execution environment.
 
 ---
 
-## Skofnung: The Centralized Web Component and User Interface (UI)
+## Skofnung: The Backend Component
 
-**A Command Center for Effortless Management**
+**Empowering the Core Functionality**
 
-*Skofnung*, named after the legendary sword of the Danish king Hrólf Kraki, serves as the centralized web component that transforms Vaskaktusz into a command center for remote code execution. The *Skofnung* UI is designed with a user-friendly interface, providing users with a comprehensive and intuitive platform to manage, monitor, and execute code on remote machines seamlessly.
+*Skofnung*, named after the legendary sword of the Danish king Hrólf Kraki, serves as the backend component that complements Gungnir's capabilities. It provides the core functionality of managing and coordinating the remote code execution process, ensuring seamless communication between agents and the user interface.
 
 **Comprehensive Agent Health Status Table**
 
-At the core of *Skofnung*'s UI is a comprehensive table detailing the health status of connected agents. Users gain insights into critical metrics such as CPU usage, memory consumption, and disk space, all presented in real-time. This visual representation allows users to monitor the well-being of their remote machines effortlessly, enabling proactive maintenance and swift issue resolution.
+At the core of *Skofnung*'s functionality is a comprehensive table detailing the health status of connected agents. Users gain insights into critical metrics such as CPU usage, memory consumption, and disk space, all presented in real-time. This backend component allows users to monitor the well-being of their remote machines effortlessly, enabling proactive maintenance and swift issue resolution.
+
+---
+
+## Dainsleif: The Centralized Web Component and User Interface (UI)
+
+**A Command Center for Effortless Management**
+
+*Dainsleif*, named after the mythical sword of Norse legend, serves as the centralized web component that transforms Vaskaktusz into a command center for remote code execution. The *Dainsleif* UI is designed with a user-friendly interface, providing users with a comprehensive and intuitive platform to manage, monitor, and execute code on remote machines seamlessly.
 
 **Effortless Code Execution with Intuitive Menu Elements**
 
-*Skofnung*'s UI simplifies the code execution process, offering an intuitive menu element for securely uploading code destined for remote execution. Users benefit from real-time updates on the execution status, providing clear feedback on the outcome of their requests. *Skofnung*'s design emphasizes transparency, ensuring users remain informed at every stage of the code execution process.
+*Dainsleif*'s UI simplifies the code execution process, offering an intuitive menu element for securely uploading code destined for remote execution. Users benefit from real-time updates on the execution status, providing clear feedback on the outcome of their requests. *Dainsleif*'s design emphasizes transparency, ensuring users remain informed at every stage of the code execution process.
 
 ---
 
 ## Looking Ahead: A Unified Future
 
-In unison, *Gungnir* and *Skofnung* redefine remote code execution, offering a harmonious blend of security, intelligence, and usability. **Vaskaktusz**, with its Python-powered agent and user-centric web component, is poised to become the go-to solution for individuals and teams seeking to break down barriers, collaborate effortlessly, and harness the power of remote code execution in a secure and intelligent environment. Welcome to the future of collaborative coding with **Vaskaktusz**, where *Gungnir* and *Skofnung* unite for innovation and efficiency.
+In unison, *Gungnir*, *Skofnung*, and *Dainsleif* redefine remote code execution, offering a harmonious blend of security, intelligence, and usability. **Vaskaktusz**, with its Python-powered agent, backend component, and user-centric web component, is poised to become the go-to solution for individuals and teams seeking to break down barriers, collaborate effortlessly, and harness the power of remote code execution in a secure and intelligent environment. Welcome to the future of collaborative coding with **Vaskaktusz**, where this powerful trio unites for innovation and efficiency.
