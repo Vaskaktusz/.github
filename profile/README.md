@@ -24,7 +24,7 @@ In the ever-evolving landscape of collaborative software development, **Vaskaktu
 
 **Empowering the Core Functionality**
 
-*Skofnung*, named after the legendary sword of the Danish king Hrólf Kraki, serves as the backend component that complements Gungnir's capabilities. It provides the core functionality of managing and coordinating the remote code execution process, ensuring seamless communication between agents and the user interface.
+*Skofnung*, the backend component, is a Spring Boot 3 application that relies on the Spring Cloud module for REST communication both with the agent (*Gungnir*) and the UI (*Dainsleif*). It serves as the backbone of Vaskaktusz, managing and coordinating the remote code execution process, ensuring seamless communication between agents and the user interface.
 
 **Comprehensive Agent Health Status Table**
 
@@ -36,7 +36,7 @@ At the core of *Skofnung*'s functionality is a comprehensive table detailing the
 
 **A Command Center for Effortless Management**
 
-*Dainsleif*, named after the mythical sword of Norse legend, serves as the centralized web component that transforms Vaskaktusz into a command center for remote code execution. The *Dainsleif* UI is designed with a user-friendly interface, providing users with a comprehensive and intuitive platform to manage, monitor, and execute code on remote machines seamlessly.
+*Dainsleif*, the UI component, is a responsive web app developed with React Native. Named after the mythical sword of Norse legend, *Dainsleif* serves as the centralized web component that transforms Vaskaktusz into a command center for remote code execution. The *Dainsleif* UI is designed with a user-friendly interface, providing users with a comprehensive and intuitive platform to manage, monitor, and execute code on remote machines seamlessly.
 
 **Effortless Code Execution with Intuitive Menu Elements**
 
