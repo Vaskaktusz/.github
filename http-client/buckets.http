@@ -1,0 +1,38 @@
+DELETE http://localhost:8080/buckets
+Authorization: Basic admin admin
+Content-Type: application/json
+
+{
+    "file": "date.sh",
+    "folder": "upload",
+    "location": "{{location}}",
+    "username": "{{username}}",
+    "password": "{{password}}"
+}
+
+###
+PUT http://localhost:8080/buckets
+Authorization: Basic admin admin
+Content-Type: application/json
+
+{
+    "script": "date",
+    "file": "date.sh",
+    "folder": "upload",
+    "location": "{{location}}",
+    "username": "{{username}}",
+    "password": "{{password}}"
+}
+
+###
+POST http://localhost:8080/buckets/search
+Authorization: Basic admin admin
+Content-Type: application/json
+
+{
+    "file": "date.sh",
+    "folder": "upload",
+    "location": "{{location}}",
+    "username": "{{username}}",
+    "password": "{{password}}"
+}

@@ -1,0 +1,10 @@
+PUT http://localhost:8080/deploy
+Authorization: Basic admin admin
+Content-Type: application/json
+
+{
+    "script": "source $1/date.sh",
+    "location": "{{location}}",
+    "username": "{{username}}",
+    "password": "{{password}}"
+}

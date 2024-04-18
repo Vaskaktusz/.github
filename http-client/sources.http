@@ -1,0 +1,20 @@
+DELETE http://localhost:8080/sources/1
+Authorization: Basic admin admin
+
+###
+GET http://localhost:8080/sources
+Authorization: Basic admin admin
+
+###
+POST http://localhost:8080/sources
+Authorization: Basic admin admin
+Content-Type: application/json
+
+{
+    "script": "date",
+    "file": "date.sh",
+    "folder": "upload",
+    "location": "{{location}}",
+    "username": "{{username}}",
+    "password": "{{password}}"
+}
