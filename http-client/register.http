@@ -1,0 +1,11 @@
+POST http://localhost:8080/register
+Content-Type: application/json
+
+{
+    "accountNonExpired": "true",
+    "accountNonLocked": "true",
+    "credentialsNonExpired": "true",
+    "enabled": "true",
+    "username": "{{username}}",
+    "password": "{noop}{{password}}"
+}
