@@ -1,4 +1,4 @@
-PUT http://localhost:8080/deploy
+PUT http://localhost:8080/aPackage
 Authorization: Basic admin admin
 Content-Type: application/json
 
