@@ -1,10 +1,10 @@
-PUT http://localhost:8080/deploy
-Authorization: Basic admin admin
+PUT {{skofnung_location}}/deploy
+Authorization: Basic {{skofnung_username}} {{skofnung_password}}
 Content-Type: application/json
 
 {
     "script": "source $1/date.sh",
-    "location": "{{location}}",
-    "username": "{{username}}",
-    "password": "{{password}}"
+    "location": "{{gungnir_location}}",
+    "username": "{{gungnir_username}}",
+    "password": "{{gungnir_password}}"
 }
