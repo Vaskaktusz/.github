@@ -1,38 +1,38 @@
-DELETE http://localhost:8080/buckets
-Authorization: Basic admin admin
+DELETE {{skofnung_location}}/buckets
+Authorization: Basic {{skofnung_username}} {{skofnung_password}}
 Content-Type: application/json
 
 {
     "file": "date.sh",
     "folder": "upload",
-    "location": "{{location}}",
-    "username": "{{username}}",
-    "password": "{{password}}"
+    "location": "{{gungnir_location}}",
+    "username": "{{gungnir_username}}",
+    "password": "{{gungnir_password}}"
 }
 
 ###
-PUT http://localhost:8080/buckets
-Authorization: Basic admin admin
+PUT {{skofnung_location}}/buckets
+Authorization: Basic {{skofnung_username}} {{skofnung_password}}
 Content-Type: application/json
 
 {
     "script": "date",
     "file": "date.sh",
     "folder": "upload",
-    "location": "{{location}}",
-    "username": "{{username}}",
-    "password": "{{password}}"
+    "location": "{{gungnir_location}}",
+    "username": "{{gungnir_username}}",
+    "password": "{{gungnir_password}}"
 }
 
 ###
-POST http://localhost:8080/buckets/search
-Authorization: Basic admin admin
+POST {{skofnung_location}}/buckets/search
+Authorization: Basic {{skofnung_username}} {{skofnung_password}}
 Content-Type: application/json
 
 {
     "file": "date.sh",
     "folder": "upload",
-    "location": "{{location}}",
-    "username": "{{username}}",
-    "password": "{{password}}"
+    "location": "{{gungnir_location}}",
+    "username": "{{gungnir_username}}",
+    "password": "{{gungnir_password}}"
 }
