@@ -1,20 +1,20 @@
-DELETE {{skofnung_location}}/sources/1
-Authorization: Basic {{skofnung_username}} {{skofnung_password}}
+DELETE {{skofnung.location}}/sources/1
+Authorization: Basic {{skofnung.username}} {{skofnung.password}}
 
 ###
-GET {{skofnung_location}}/sources
-Authorization: Basic {{skofnung_username}} {{skofnung_password}}
+GET {{skofnung.location}}/sources
+Authorization: Basic {{skofnung.username}} {{skofnung.password}}
 
 ###
-POST {{skofnung_location}}/sources
-Authorization: Basic {{skofnung_username}} {{skofnung_password}}
+POST {{skofnung.location}}/sources
+Authorization: Basic {{skofnung.username}} {{skofnung.password}}
 Content-Type: application/json
 
 {
     "script": "date",
     "file": "date.sh",
     "folder": "upload",
-    "location": "{{gungnir_location}}",
-    "username": "{{gungnir_username}}",
-    "password": "{{gungnir_password}}"
+    "location": "{{gungnir.location}}",
+    "username": "{{gungnir.username}}",
+    "password": "{{gungnir.password}}"
 }

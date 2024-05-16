@@ -1,38 +1,38 @@
-DELETE {{skofnung_location}}/buckets
-Authorization: Basic {{skofnung_username}} {{skofnung_password}}
+DELETE {{skofnung.location}}/buckets
+Authorization: Basic {{skofnung.username}} {{skofnung.password}}
 Content-Type: application/json
 
 {
     "file": "date.sh",
     "folder": "upload",
-    "location": "{{gungnir_location}}",
-    "username": "{{gungnir_username}}",
-    "password": "{{gungnir_password}}"
+    "location": "{{gungnir.location}}",
+    "username": "{{gungnir.username}}",
+    "password": "{{gungnir.password}}"
 }
 
 ###
-PUT {{skofnung_location}}/buckets
-Authorization: Basic {{skofnung_username}} {{skofnung_password}}
+PUT {{skofnung.location}}/buckets
+Authorization: Basic {{skofnung.username}} {{skofnung.password}}
 Content-Type: application/json
 
 {
     "script": "date",
     "file": "date.sh",
     "folder": "upload",
-    "location": "{{gungnir_location}}",
-    "username": "{{gungnir_username}}",
-    "password": "{{gungnir_password}}"
+    "location": "{{gungnir.location}}",
+    "username": "{{gungnir.username}}",
+    "password": "{{gungnir.password}}"
 }
 
 ###
-POST {{skofnung_location}}/buckets/search
-Authorization: Basic {{skofnung_username}} {{skofnung_password}}
+POST {{skofnung.location}}/buckets/search
+Authorization: Basic {{skofnung.username}} {{skofnung.password}}
 Content-Type: application/json
 
 {
     "file": "date.sh",
     "folder": "upload",
-    "location": "{{gungnir_location}}",
-    "username": "{{gungnir_username}}",
-    "password": "{{gungnir_password}}"
+    "location": "{{gungnir.location}}",
+    "username": "{{gungnir.username}}",
+    "password": "{{gungnir.password}}"
 }
