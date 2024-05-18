@@ -1,31 +1,31 @@
-POST {{skofnung_location}}/device
-Authorization: Basic {{skofnung_username}} {{skofnung_password}}
+POST {{skofnung.location}}/device
+Authorization: Basic {{skofnung.username}} {{skofnung.password}}
 Content-Type: application/json
 
 {
-    "location": "{{gungnir_location}}",
-    "username": "{{gungnir_username}}",
-    "password": "{{gungnir_password}}"
+    "location": "{{gungnir.location}}",
+    "username": "{{gungnir.username}}",
+    "password": "{{gungnir.password}}"
 }
 
 ###
-POST {{skofnung_location}}/health
-Authorization: Basic {{skofnung_username}} {{skofnung_password}}
+POST {{skofnung.location}}/health
+Authorization: Basic {{skofnung.username}} {{skofnung.password}}
 Content-Type: application/json
 
 {
-    "location": "{{gungnir_location}}",
-    "username": "{{gungnir_username}}",
-    "password": "{{gungnir_password}}"
+    "location": "{{gungnir.location}}",
+    "username": "{{gungnir.username}}",
+    "password": "{{gungnir.password}}"
 }
 
 ###
-POST {{skofnung_location}}/system
-Authorization: Basic {{skofnung_username}} {{skofnung_password}}
+POST {{skofnung.location}}/system
+Authorization: Basic {{skofnung.username}} {{skofnung.password}}
 Content-Type: application/json
 
 {
-    "location": "{{gungnir_location}}",
-    "username": "{{gungnir_username}}",
-    "password": "{{gungnir_password}}"
+    "location": "{{gungnir.location}}",
+    "username": "{{gungnir.username}}",
+    "password": "{{gungnir.password}}"
 }
