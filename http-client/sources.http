@@ -1,11 +1,14 @@
+# @no-cookie-jar
 DELETE {{skofnung.location}}/sources/1
 Authorization: Basic {{skofnung.username}} {{skofnung.password}}
 
 ###
+# @no-cookie-jar
 GET {{skofnung.location}}/sources
 Authorization: Basic {{skofnung.username}} {{skofnung.password}}
 
 ###
+# @no-cookie-jar
 POST {{skofnung.location}}/sources
 Authorization: Basic {{skofnung.username}} {{skofnung.password}}
 Content-Type: application/json

@@ -1,3 +1,4 @@
+# @no-cookie-jar
 PUT {{skofnung.location}}/deploy
 Authorization: Basic {{skofnung.username}} {{skofnung.password}}
 Content-Type: application/json
