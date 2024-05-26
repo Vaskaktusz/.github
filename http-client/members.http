@@ -1,5 +1,5 @@
 # @no-cookie-jar
-POST {{skofnung.location}}/members
+PUT {{skofnung.location}}/members
 Content-Type: application/json
 
 {
