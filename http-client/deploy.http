@@ -4,7 +4,7 @@ Authorization: Basic {{skofnung.username}} {{skofnung.password}}
 Content-Type: application/json
 
 {
-    "script": "source $1/date.sh",
+    "code": "source $1/date.sh",
     "location": "{{gungnir.location}}",
     "username": "{{gungnir.username}}",
     "password": "{{gungnir.password}}"

@@ -18,7 +18,7 @@ Authorization: Basic {{skofnung.username}} {{skofnung.password}}
 Content-Type: application/json
 
 {
-    "script": "date",
+    "code": "date",
     "file": "date.sh",
     "folder": "upload",
     "location": "{{gungnir.location}}",
