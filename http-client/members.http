@@ -1,4 +1,5 @@
-POST {{skofnung.location}}/register
+# @no-cookie-jar
+PUT {{skofnung.location}}/members
 Content-Type: application/json
 
 {

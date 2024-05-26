@@ -1,17 +1,20 @@
-DELETE {{skofnung.location}}/sources/1
+# @no-cookie-jar
+DELETE {{skofnung.location}}/programs/1
 Authorization: Basic {{skofnung.username}} {{skofnung.password}}
 
 ###
-GET {{skofnung.location}}/sources
+# @no-cookie-jar
+GET {{skofnung.location}}/programs
 Authorization: Basic {{skofnung.username}} {{skofnung.password}}
 
 ###
-POST {{skofnung.location}}/sources
+# @no-cookie-jar
+POST {{skofnung.location}}/programs
 Authorization: Basic {{skofnung.username}} {{skofnung.password}}
 Content-Type: application/json
 
 {
-    "script": "date",
+    "code": "date",
     "file": "date.sh",
     "folder": "upload",
     "location": "{{gungnir.location}}",
