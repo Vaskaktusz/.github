@@ -3,10 +3,10 @@ PUT {{skofnung.location}}/members
 Content-Type: application/json
 
 {
-    "accountNonExpired": "true",
-    "accountNonLocked": "true",
-    "credentialsNonExpired": "true",
-    "enabled": "true",
+    "accountNonExpired": true,
+    "accountNonLocked": true,
+    "credentialsNonExpired": true,
+    "enabled": true,
     "username": "{{skofnung.username}}",
     "password": "{noop}{{skofnung.password}}"
 }
